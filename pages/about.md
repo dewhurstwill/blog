@@ -3,7 +3,15 @@ layout: single
 title: About me
 permalink: /about/
 ---
-Add something here
+# Will@wdew.uk:/blog/$ _
+> Junior DevOps Engineer
 
-### Contact
-will@wdew.uk
+
+## My Interests: 
+
+- Cloud Technology (AWS, Azure). 
+- Dev/DevOps (React, NodeJS, Terraform, Kubernetes, Azure DevOps). 
+- Personal Finance. 
+- Reading/Listening to all things self-improvement. 
+- Photography
+
