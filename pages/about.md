@@ -1,9 +1,8 @@
 ---
 layout: single
-title: About me
+title: Will@wdew.uk:/blog/$ _
 permalink: /about/
 ---
-# Will@wdew.uk:/blog/$ _
 > Junior DevOps Engineer
 
 
