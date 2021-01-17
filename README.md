@@ -1,1 +1,1 @@
-# dewhurstwill-blog.github.io
+# hello.wdew.uk/blog
