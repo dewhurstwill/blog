@@ -121,17 +121,17 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/willdewhurst"
     - label: "Medium"
-      url: https://medium.com/@willdewhurst
+      url: "https://medium.com/@willdewhurst"
       icon: "fab fa-fw fa-medium"
 
 
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
+    - label: ""
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dewhurstwill"
-    - label: "Instagram"
+    - label: ""
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/dewhurstwill"
 
@@ -259,7 +259,6 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
 
 # Defaults
 defaults:
