@@ -1,9 +1,7 @@
 # main links
 main:
   - title: "About"
-    url: https://blog.wdew.uk/about/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+    url: https://hello.wdew.uk/blog/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
