@@ -1,6 +1,5 @@
 ---
-post_name: "azure_policy_for_aks"
-title:  "Azure Policy has gone into preview for AKS (Azure Kubernetes Service)"
+title:  "Azure Policy for AKS"
 date:   2020-11-18 00:00:00 +0000
 categories: Azure AKS
 tags:
@@ -14,6 +13,8 @@ header:
 published: true
 
 ---
+
+# Azure Policy has gone into preview for AKS (Azure Kubernetes Service)
 
 As Kubernetes has become a go-to container orchestration platform for organisations that are looking to deploy and scale their software, it has had to evolve its existing and new security feature sets.
 

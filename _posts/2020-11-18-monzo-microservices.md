@@ -1,6 +1,5 @@
 ---
-post_name: "monzo_microservices_kubecon2020"
-title:  "Banking on kubernetes: Are microservices the future of flexible, digital banking?"
+title:  "Kubecon 2020: Banking on kubernetes"
 date:   2020-11-18 00:00:00 +0000
 categories: Kubernetes
 tags:
@@ -16,6 +15,8 @@ header:
 published: true
 
 ---
+
+# Banking on kubernetes: Are microservices the future of flexible, digital banking?
 
 By 2025, it is estimated that [44% of brits](https://www.finder.com/uk/digital-banking-adoption) will have a digital-only bank. Since 2015, Monzo has been a driving force in this space, amassing over 4 million customers. At KubeCon 2020, Senior Monzo Engineers Miles Bryant and Suhail Patel shared their journey of self-hosting a production Kubernetes deployment.
 
