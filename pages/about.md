@@ -4,6 +4,7 @@ title: "About"
 permalink: /about/
 ---
 > WillDewhurst@wdew.uk:/blog/$ _
+
 > Junior DevOps Engineer
 
 
