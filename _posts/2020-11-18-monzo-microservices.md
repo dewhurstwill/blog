@@ -1,11 +1,13 @@
 ---
+post_name: "monzo_microservices_kubecon2020"
 title:  "Banking on kubernetes: Are microservices the future of flexible, digital banking?"
 date:   2020-11-18 00:00:00 +0000
 categories: Kubernetes
 tags:
-    - Kubernetes
-    - Microservices
-	- AWS
+    - kubernetes
+    - kubecon2020
+    - microservices
+    - monzo
 classes: wide
 toc: true
 header: 

@@ -1,4 +1,5 @@
 ---
+post_name: "azure_policy_for_aks"
 title:  "Azure Policy has gone into preview for AKS (Azure Kubernetes Service)"
 date:   2020-11-18 00:00:00 +0000
 categories: Azure AKS
