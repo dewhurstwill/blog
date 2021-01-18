@@ -1,7 +1,7 @@
 ---
 title:  "Azure Policy has gone into preview for AKS (Azure Kubernetes Service)"
 date:   2020-11-18 00:00:00 +0000
-categories: Azure Kubernetes Service
+categories: Azure AKS
 tags:
     - AKS
     - Azure
