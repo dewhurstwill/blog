@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "Will@wdew.uk:/blog/$ _"
+title: "About"
 permalink: /about/
 ---
+> WillDewhurst@wdew.uk:/blog/$ _
 > Junior DevOps Engineer
 
 
