@@ -1,7 +1,7 @@
 ---
 title:  "Leaking AWS S3 Credentials: An Experiment"
 date:   2020-11-18 00:00:00 +0000
-categories: Kubernetes
+categories: azure aws s3 security
 tags:
     - aws
     - s3
