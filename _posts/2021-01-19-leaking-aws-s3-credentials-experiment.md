@@ -112,7 +112,7 @@ Although I didnt get an email from azure to say I had uploaded a connection stri
 
 Looking further into Microsoft documentation this is not a best practice way of accessing a storage account instead they recommend creating an app registration with limited permissions on the storage account/container from which you can generate should lived access tokens with just the right ammount of permission
 
-## To conclude
+## To conclude
 
 Leaking secrets always doesn’t end well however it would appear due to the number of high-profile news stories regarding S3, Amazon has invested heavily to ensure administrators are notified before the credentials can be used maliciously
 
