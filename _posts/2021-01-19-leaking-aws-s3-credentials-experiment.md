@@ -50,7 +50,7 @@ FILE_PREFIX="blob_"
 
 
 
-## Preparing AWS
+## Preparing AWS
 
 AWS has an access control framework called IAM (Integral Access Control), not to be confused with AMI (Amazon Machine Image), 
 
