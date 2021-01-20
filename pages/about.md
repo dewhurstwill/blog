@@ -5,7 +5,7 @@ permalink: /about/
 ---
 > WillDewhurst@wdew.uk:/blog/$ _
 
-> Junior DevOps Engineer
+> DevOps Engineer
 
 
 ## My Interests: 
