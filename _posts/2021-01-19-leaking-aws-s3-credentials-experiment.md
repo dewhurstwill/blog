@@ -1,8 +1,9 @@
 ---
 title:  "Leaking AWS S3 Credentials"
 date:   2020-11-18 00:00:00 +0000
-categories: azure aws s3 security
+categories: aws s3 security
 tags:
+    - azure
     - aws
     - s3
     - security
@@ -28,11 +29,11 @@ This got me thinking (inspired by a medium article), what if I purposefully leak
 
 ## The Approach
 
-The simplest way I thought to “leak” the credentials would be to “accidentally” push them to a public [git repository](https://www.geeksforgeeks.org/what-is-a-git-repository/) (almost everyone who just read that will have cringed at the idea of commiting secrets to git) 
+The simplest way I thought to “leak” the credentials would be to “accidentally” push them to a public [git repository](https://www.geeksforgeeks.org/what-is-a-git-repository/) (almost everyone who just read that will have cringed at the idea of committing secrets to git) 
 
 Unlike the medium article which had a genuine use for a read-only public S3 bucket, I didn’t so I had to come up with a name and codebase. 
 
-So, I built a simple containerised app using python to download blobs from the bucket which arn't prefixed with blob_ and reupload them with correct prefix. 
+So, I built a simple containerised app using python to download blobs from the bucket which aren't prefixed with blob_ and reupload them with correct prefix. 
 
 To make it more realistic that I “forgot” to gitignore the file, I stored the access id and key in a file called .env and used environment variables inside the script instead of hard-coding the variables
 
@@ -46,7 +47,7 @@ DEST_BUCKET="s3-corp-file_share291"
 FILE_PREFIX="blob_"
  ```
 
->  Note: On *nix based systems "dotfiles" are usually hidden by deafult
+>  Note: On *nix based systems "dotfiles" are usually hidden by default
 
 
 
@@ -106,17 +107,17 @@ DEST_CONTAINER="blobs"
 FILE_PREFIX="blob_"
 ```
 
-Although I didnt get an email from azure to say I had uploaded a connection string by accident, one of my collegues did upload a file using the connection string secret and the azure storage explorer (only know it was one of my collegues as they told me)
+Although I didn't get an email from azure to say I had uploaded a connection string by accident, one of my colleagues did upload a file using the connection string secret and the azure storage explorer (only know it was one of my colleagues as they told me)
 
 ![](https://i.imgur.com/cqQCgyw.png)
 
-Looking further into Microsoft documentation this is not a best practice way of accessing a storage account instead they recommend creating an app registration with limited permissions on the storage account/container from which you can generate should lived access tokens with just the right ammount of permission
+Looking further into Microsoft documentation this is not a best practice way of accessing a storage account instead they recommend creating an app registration with limited permissions on the storage account/container from which you can generate should lived access tokens with just the right amount of permission
 
 ## To conclude
 
 Leaking secrets always doesn’t end well however it would appear due to the number of high-profile news stories regarding S3, Amazon has invested heavily to ensure administrators are notified before the credentials can be used maliciously
 
-What if they were not AWS credentials where they have invested heavily in security, what if it was an API key to a custom service or you accidentilly commited a connection string to your database?
+What if they were not AWS credentials where they have invested heavily in security, what if it was an API key to a custom service or you accidentally committed a connection string to your database?
 
 This would be where you would turn to an alternative for non-AWS credentials such Git Guardian (Not Sponsored) which you can read more about [here](https://www.gitguardian.com/)
 
