@@ -1,5 +1,5 @@
 ---
-title:  "Leaking AWS S3 Credentials: An Experiment"
+title:  "Leaking AWS S3 Credentials"
 date:   2020-11-18 00:00:00 +0000
 categories: azure aws s3 security
 tags:
