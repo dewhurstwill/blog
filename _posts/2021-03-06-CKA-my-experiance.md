@@ -24,7 +24,7 @@ On Thursday just gone, I passed the CKA (Kubernetes Certified Administrator) exa
 > The advise in the blog is valid from March 2021
 
 
-## General info about the exam
+## General information about the exam
 
 - Length: 2 hours
 - Cost: ~$300
