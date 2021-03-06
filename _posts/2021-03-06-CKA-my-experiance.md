@@ -19,9 +19,26 @@ published: true
 
 # My experience taking the CKA exam
 
-On Thursday just gone, I passed the CKA (Kubernetes Certified Administrator) exam. There are many articles however it would appear the style has recently changed.
+On Thursday just gone, I passed the CKA (Kubernetes Certified Administrator) exam. There are many articles on medium with different peoples opinions and tips on how t o pass, however it would appear some parts of the exam have recently changed.
 
 > The advise in the blog is valid from March 2021
+
+
+## General info about the exam
+
+- Length: 2 hours
+- Cost: ~$300
+- Number of questions: 15-20
+- Topics & Weightings:
+
+| Domain | Weighting |
+|-|-|
+| Cluster Architecture, Installation & Configuration | 25% |
+| Workloads & Scheduling | 15% |
+| Services & Networking |	20% |
+| Storage |	10% |
+| Troubleshooting	| 30% |
+
 
 ## Find a good course
 
