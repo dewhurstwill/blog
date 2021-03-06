@@ -19,7 +19,7 @@ published: true
 
 # My experience taking the CKA exam
 
-On Thursday just gone, I passed the CKA (Kubernetes Certified Administrator) exam. There are many articles on medium with different peoples opinions and tips on how t o pass, however it would appear some parts of the exam have recently changed.
+On Thursday just gone, I passed the CKA (Kubernetes Certified Administrator) exam. There are many articles on medium with different peoples opinions and tips on how to pass, however it would appear some parts of the exam have recently changed.
 
 > The advise in the blog is valid from March 2021
 
